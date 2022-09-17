@@ -8,13 +8,13 @@
 #define VIRTUAL_CHANNEL 2
 
 // WiFi network info.
-char ssid[] = "aizatwifi2.5@unifi";
-char wifiPassword[] = "11Septem!";
+char ssid[] = "YOURSSID";
+char wifiPassword[] = "YOUR_PASSWORD";
 
 // Cayenne authentication info. This should be obtained from the Cayenne Dashboard.
-char username[] = "c52de9d0-2444-11ed-baf6-35fab7fd0ac8";
-char password[] = "5e201434411aa623960a1978f92eb3c1a932ad4b";
-char clientID[] = "cb0892f0-244a-11ed-baf6-35fab7fd0ac8";
+char username[] = "YOUR_CAYENNE_USERNAME";
+char password[] = "YOUR_CAYENNE_PASSWORD";
+char clientID[] = "YOUR_CAYENNE_CLIENTID";
 
 float reading; float temperature;
 unsigned long previousMillis = 0;
